@@ -1,9 +1,9 @@
 (function() {
     console.log('El script de Intermundial se está ejecutando');
-  // Configuración del widget
 
+    // Configuración del widget
     var dataText = '¡Viaja seguro y con un descuento del 15%. SOLO DEL 9 Al 19 DE AGOSTO!.';
-    var dataImageURL = 'https://www.iammsolutions.com/wp-content/uploads/2024/08/Intermundial_loco_rgb.png'; // URL de la imagen
+    var dataImageURL = 'https://www.iammsolutions.com/wp-content/uploads/2024/08/Intermundial_logo.png'; // URL de la imagen
     var dataZIndex = '999999';
 
     // Crea el contenedor del widget
@@ -22,7 +22,7 @@
     // Agrega la imagen al widget
     var widgetImage = document.createElement('img');
     widgetImage.src = dataImageURL;
-    widgetImage.alt = 'Seguros de Viaje InterMundial';
+    widgetImage.alt = 'Descripción de la imagen';
     widgetImage.style.width = '100%'; // Ajustar el ancho de la imagen al contenedor
     widgetContainer.appendChild(widgetImage);
 
